@@ -1,0 +1,27 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# User media and generated editing jobs stay local.
+assets/
+work/
+final/
+*.mp4
+*.mov
+*.m4v
+*.avi
+*.mkv
+*.wav
+*.mp3
+*.aac
+*.flac
+*.webm
+*.srt
+
+# Local speech-model caches
+models/
+model_cache/
